@@ -1,0 +1,8 @@
+copy rsyslog.conf to /etc
+copy 00-remotelog.conf to /etc/rsyslog.d/
+
+Modify $AllowedSenders subnets as required
+
+sudo systemctl stop rsyslog.service
+sudo systemctl start rsyslog.service
+sudo systemctl status rsyslog.service
