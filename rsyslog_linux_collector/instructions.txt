@@ -1,7 +1,9 @@
+Instructions for the Server (Linux Syslog Collector)
+-----------------------------------------------------
 copy rsyslog.conf to /etc
 copy 00-remotelog.conf to /etc/rsyslog.d/
 
-Modify $AllowedSenders subnets as required
+Modify $AllowedSenders subnets as required or omit if you decide
 
 sudo systemctl stop rsyslog.service
 sudo systemctl start rsyslog.service
