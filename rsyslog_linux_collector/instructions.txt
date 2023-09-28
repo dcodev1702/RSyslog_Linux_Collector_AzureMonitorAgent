@@ -2,8 +2,8 @@ Instructions for the Server (Linux Syslog Collector)
 -----------------------------------------------------
 Assumptions:
  1. The Linux syslog collector has the AMA extension and Syslog DCR configured.
-    [AMA - Syslog](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-syslog)
-    [Forwarder Config](https://learn.microsoft.com/en-us/azure/sentinel/forward-syslog-monitor-agent)
+    -- AMA - Syslog: https://learn.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-syslog
+    -- Forwarder Config: https://learn.microsoft.com/en-us/azure/sentinel/forward-syslog-monitor-agent
 
 Server Config:
 ---------------
